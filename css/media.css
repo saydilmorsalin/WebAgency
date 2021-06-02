@@ -99,9 +99,9 @@
 	}
 }
 /* Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {
+@media  (min-width: 351px) and (max-width: 575.98px) {
 	.c-title{
-		font-size: 115px;
+		font-size: 87px;
 	}
 	.c-para{
 		left: 32%;
@@ -162,6 +162,12 @@
     /*portfolio*/
     .portfolio-bottom {
     padding: 20px 0 58px;
+}
+.portfolio .c-title{
+	font-size: 70px;
+}
+.portfolio-top .common .c-para{
+	left: 12%;
 }
   	.card {
     margin-top: 34px;
@@ -272,6 +278,9 @@
     padding-bottom: 24px;
     line-height: 28px;
   	}
+  	.portfolio-top .common .c-para{
+	left: 24%;
+}
 
  }
 
@@ -294,6 +303,10 @@
     padding-bottom: 24px;
     line-height: 28px;
   	}
+  		.portfolio-top .common .c-para{
+	left: 24%;
+}
+
 
 }
 
